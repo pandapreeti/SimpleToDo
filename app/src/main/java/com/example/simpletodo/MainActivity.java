@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
+        // saves the item in the list
         private void saveItems(){
             try {
                 FileUtils.writeLines(getDataFile(),items);

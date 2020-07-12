@@ -19,6 +19,7 @@
 
     <Button
         android:id="@+id/btnSave"
+        android:background="@android:color/holo_green_dark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etItem"
